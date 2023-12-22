@@ -1,11 +1,41 @@
-/* BMI.css */
 .bmi-container {
-    max-width: 400px;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  max-width: 400px;
+  margin: auto;
+  padding: 40px; 
+  border: 1px solid #ccc;
+  border-radius: 8px; 
+  background-color: #f8f8f8; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 600px) {
+  .bmi-container {
+    width: 80%; 
+    padding: 20px; 
   }
-  
- 
-  
+}
+
+button {
+  background-color: #3498db; 
+  color: #fff; 
+  padding: 10px 15px; 
+  font-size: 16px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background-color: #2980b9; 
+}
+
+.inputLabel {
+  display: block; 
+  margin-bottom: 10px; 
+}
